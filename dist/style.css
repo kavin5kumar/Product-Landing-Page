@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Oswald:wght@300;400&display=swap');
+
+body{
+  display: flex;
+  background-color: #EAECEE;
+  font-family: 'Oswald', sans-serif;
+}
+
+#email{
+  font-family: 'Lora', serif;
+}
+
+#top-bar {
+  position: relative;
+  
+}
+
+li {
+  list-style: none;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+header{
+  width: 100%;
+  position: fixed;
+}
+
+  #nav-bar {
+    margin-top: -50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    text-align: right;
+    padding: 60px 5px;
+    position: fixed;
+    right: 50px;
+    display:inline-block;
+
+  }
+
+.nav-link{
+  padding: 100px; 
+}
+
+#join{
+  position: relative;
+  top: -201px;
+  left: -250px;
+}
+
+#detail{
+  position: relative;
+  top: -224px;
+  left: -125px;
+}
+
+#demo{
+  position: relative;
+  top: -247px;
+  left: -10px
+}
+
+#price{
+  position: relative;
+  top: -270px;
+  left: 100px
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #09A52F;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#container{
+     text-align: center;
+     position: relative;
+     right: -30px;
+  }
+
+#top{
+  background-color: #1FB0BF; 
+  
+}
+
+#email{
+  width: 400px;
+  height: 30px;
+ 
+}
+#submit{
+  position: relative;
+  top: 50px;
+  left: -265px;
+  width: 100px;
+  height: 30px;
+}
+
+#form{
+  position: relative;
+  top: 40px;
+}
+
+
+#video1{
+  position: relative;
+  top: 25px;
+  left: 690px;
+}
+
+#move{
+  position: relative;
+  top: 300px;
+  right: -700px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100%  / 3);
+  height: 300px;
+  margin: -20px;
+  border: 3px solid #000;
+  border-radius: 15px;
+  position: relative;
+  right: 5px;
+  top: -250px;
+}
+
+.product > .level {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product > ol{
+  position: relative;
+  font-family: 'Lora', serif;
+  top: -10px;
+  right: 12px
+}
+
+.product > .btn{
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+}
+
+#copyright{
+  text-align: center;
+  font-size: 20px
+}
+
+#top-color{
+  background-color: #D1F2EB; 
+}
+
+.product > .btn::hover{
+  background-color: #ABB2B9;
+}
+
+.button::hover{
+  background-color: #ABB2B9;
+}
